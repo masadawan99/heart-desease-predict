@@ -1,8 +1,17 @@
-﻿# Heart Disease Prediction System
+# Heart Disease Prediction System
 
 **AIC354 — Machine Learning Fundamentals | Assignment 2 — Task 2**
 
+| | |
+|---|---|
+| **Student Name** | Muhammad Asad Awan |
+| **Student ID** | FA24-BSE-073 |
+| **Section** | A |
+
 An end-to-end ML system that predicts heart-disease presence from **exactly four inputs** using a Support Vector Classifier (SVC) in a scikit-learn pipeline, served by a Streamlit app.
+
+🚀 **Live App:** https://heart-desease-predict.streamlit.app/  
+📁 **GitHub:** https://github.com/masadawan99/heart-desease-predict
 
 > **Educational use only.** Not a medical device, not clinically validated, never for diagnosis or treatment decisions.
 
@@ -60,15 +69,16 @@ heart_disease_model.pkl          fitted pipeline + metadata (Kaggle model)
 baseline_cleveland_model.pkl     previous Cleveland SVC, kept for reference
 processed.cleveland.data         original UCI Cleveland data (baseline)
 data/kaggle_heart_failure/heart.csv
+heart.csv                        copy of the Kaggle CSV at root for submission
 requirements.txt
 ```
 
 ## Deployment (Streamlit Community Cloud)
 
 1. Push this folder to GitHub (no credentials are in the repo; `.gitignore` excludes `kaggle.json`).
-2. At https://share.streamlit.io, redeploy the existing app (or create a new one) pointing to `app.py` on the branch.
+2. At https://share.streamlit.io, create a new app pointing to `app.py` on the `main` branch.
 3. Under *Advanced settings* choose Python 3.12 or newer, to match the pinned package versions in `requirements.txt`. The model file was saved with scikit-learn 1.9.1; if you change versions, rerun `python train_model.py`.
 
 ## Disclaimer
 
-Educational project built for a university assignment. Predictions are based on four attributes from a small public dataset and must not be used for clinical decisions.
+Educational project built for a university assignment (AIC354, FA24-BSE-073). Predictions are based on four attributes from a small public dataset and must not be used for clinical decisions.
