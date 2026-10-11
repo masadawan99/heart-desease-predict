@@ -88,10 +88,4 @@ if st.button("Predict", type="primary", use_container_width=True):
     with st.expander("See the input sent to the model"):
         st.dataframe(user_input, hide_index=True)
 
-st.divider()
-st.caption(
-    "⚕️ **Disclaimer:** Educational model for a university assignment. It is NOT a medical "
-    "diagnostic tool and has not been clinically validated. It uses only four attributes and a "
-    "small public dataset (Kaggle Heart Failure Prediction, 918 records) and must never be used for "
-    "clinical decisions. Consult a qualified healthcare professional for medical advice."
-)
+

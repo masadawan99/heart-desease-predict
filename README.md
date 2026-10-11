@@ -10,7 +10,7 @@
 
 An end-to-end ML system that predicts heart-disease presence from **exactly four inputs** using a Support Vector Classifier (SVC) in a scikit-learn pipeline, served by a Streamlit app.
 
-🚀 **Live App:** https://heart-desease-predict.streamlit.app/  
+🚀 **Live App:** https://heart-desease-predict-5recjjkc3vyyndhhbjfdd3.streamlit.app/  
 📁 **GitHub:** https://github.com/masadawan99/heart-desease-predict
 
 > **Educational use only.** Not a medical device, not clinically validated, never for diagnosis or treatment decisions.
